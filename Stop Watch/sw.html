@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="sw.css">
+
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <h1>Stop Watch</h1>
+       <div id="display"><p class="time">00 : 00.0</p></div>
+        <button id="start" onclick="this.disabled= true;calltimer()">Start</button>
+        <button id="stop" onclick="stoptimer()">Stop</button>
+        <button id="clear" onclick="cleartimer()">Clear</button>
+    </div>
+
+    <script src="./sw.js"></script>
+
+</body>
+</html>

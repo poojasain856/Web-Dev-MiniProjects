@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #170101;
+  }
+  
+  .game-container {
+    text-align: center;
+    width: 500px;
+  padding: 20px;
+  border: 1px solid #0f0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #02f9b7;
+  margin: 20px
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f96902;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
